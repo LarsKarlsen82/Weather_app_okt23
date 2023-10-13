@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/assets/css/main2.css">
+    <script type="module" src="/assets/js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/7631ec8517.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <section class="wrapper">
+    <section class="grid">
+      <article class="box" id="myApp"></article>
+      <article class="box" id="windSpeed"></article>
+      <article class="box1"><i class="fa-regular fa-sun"></i><i class="fa-solid fa-sun"></i></i>
+        <p id="sunSet" class="weather-text"></p>
+      </article>
+      <article class="box" id="weatherType"></article>
+        
+      </article>
+    </section>
+    <section class="button">
+      <div id="searchBox">
+        <input id="searchInput" placeholder="Search City Name"></input>
+        <div>
+            <!-- Toggle switch container -->
+            <label class="toggle-container">
+                <!-- Input checkbox for the switch -->
+                <input type="checkbox" class="toggle-input" id="toggleSwitch">
+                <!-- The switch label (slider) -->
+                <span class="toggle-label"></span>
+            </label>
+          </div>
+      </div>
+
+      <article id="slideBar">
+       <div class="draggable-container" id="forecast"></div>
+      </article>
+
+    </section>
+  </section>
+</body>
+</html>
