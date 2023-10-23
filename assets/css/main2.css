@@ -41,6 +41,7 @@
     );
     box-shadow: 10px 0px 25px 0px rgba(255, 255, 255, 0.6); /* Adjusted box shadow for all elements in dark mode */
   }
+  
   body.dark-mode .draggable-container i,
   body.dark-mode .box i,
   body.dark-mode #forecast div div i{
